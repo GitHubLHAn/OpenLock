@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"btd_vdk_stm32f103c6\startup_stm32f103x6.o"
+"btd_vdk_stm32f103c6\main.o"
+"btd_vdk_stm32f103c6\stm32f1xx_it.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_msp.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_gpio_ex.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_tim.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_tim_ex.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_rcc.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_rcc_ex.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_gpio.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_dma.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_cortex.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_pwr.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_flash.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_flash_ex.o"
+"btd_vdk_stm32f103c6\stm32f1xx_hal_exti.o"
+"btd_vdk_stm32f103c6\system_stm32f1xx.o"
+"btd_vdk_stm32f103c6\display.o"
+"btd_vdk_stm32f103c6\keypad.o"
+--strict --scatter "BTD_VDK_stm32f103c6\BTD_VDK_stm32f103c6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BTD_VDK_stm32f103c6.map" -o BTD_VDK_stm32f103c6\BTD_VDK_stm32f103c6.axf
